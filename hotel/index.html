@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel los Laureles</title>
+  <meta name="keywords" content="hotel los laureles, hotel, hotel en melgar">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="img/Hotel los LAURELES1.webp">
+  <script language="javascript">
+    function deshabilitarMenuContextual() {
+      return false
+    }
+    document.oncontextmenu = deshabilitarMenuContextual
+  </script>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <!-- Oscurecerá la pantalla por debajo de la navegación al abrirse -->
+    <div class="oscurecer"></div>
+    <!--Zona visible al usuario con ícono-->
+    <div class="menu-mobile">
+      <div>
+        <a href="#"><img src="img/Hotel los LAURELES1.webp" width="80px" alt="desarrollor web"
+            title="Hotel los Laureles"> </a>
+      </div>
+      <a href="#" id="menu">
+        <i class="material-icons blanco">menu</i>
+      </a>
+    </div>
+    <nav>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="acercaDe.html">Acerca de</a></li>
+      <li><a href="#Contacto">Contacto</a></li>
+    </nav>
+  </header>
+  <!-- =================barnner=================== -->
+  <div class="image-portada">
+    <h1 class="titles">Hotel Los Laureles</h1>
+    <h2 class="titles">Comford y Atención</h2>
+  </div>
+  <!-- ==============sections de servicios================ -->
+  <section class="servicios" id="servicios">
+    <h3>Servicios:</h3>
+    <ul>
+      <li>Hospedaje.</li>
+      <li>Alimentación.</li>
+      <li>Piscina.</li>
+      <li>Bar.</li>
+    </ul>
+    <img src="img/hotel.webp" alt="desarrollor web" title="Hotel los Laureles">
+  </section>
+  <!-- ===================hospedaje=============== -->
+  <div class="servicios">
+    <h2>Hospedaje</h2>
+    <img src="img/habitacion.webp" alt="desarrollador web" title="Habitación">
+    <p>En el <b>Hotel Los Laureles</b> Contamos con las mejores habitaciones <b>5 estrellas</b> de la ciudad, ven y
+      disfruta el verdadero comford, además contamos con jacuzzi, masajistas profesionales, aire acondicionado y
+      adicional almuerzo ejecutivo.</p>
+  </div>
+  <!-- ================Alimentación================ -->
+  <div class="alimentacion">
+    <h2>Alimentación</h2>
+  </div>
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>Desayunos.</h2>
+        <h5>Empieza el día con un delicioso desayuno.</h5>
+        <div class="fakeimg photo1" style="height:200px;"></div>
+        <p>Preguntar por nuestra carta del día..</p>
+      </div>
+      <div class="card">
+        <h2>Almuerzos</h2>
+        <h5>Ejecutivos, especiales</h5>
+        <div class="fakeimg photo2" style="height:200px;"></div>
+        <p>Almuerzos de todas las clases, dale gusto a tu paladar..</p>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>Cenas</h2>
+        <div class="fakeimg photo3" style="height:100px;"></div>
+        <p>Nuestra cenas son variadas..</p>
+      </div>
+      <div class="card">
+        <h3>Veladas nocturnas</h3>
+        <div class="fakeimg photo4"></div><br>
+        <div class="fakeimg photo5"></div><br>
+        <div class="fakeimg photo6"></div>
+      </div>
+      <div class="card">
+        <h3>Veladas personalizadas.</h3>
+        <p>Para pedirle matrimonio a esa chica que siempre has amado, Sorpréndela con algo inolvidable..</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!--============== servicio de piscina====================== -->
+  <div class="Piscina">
+    <h2>Servicio de Piscina</h2>
+  </div>
+  <!-- grilla de 3 columnas -->
+  <div class="row2">
+    <div class="column column1" onclick="openTab('b1');" style="background:rgb(255, 0, 153);">Piscina</div>
+    <div class="column column2" onclick="openTab('b2');" style="background:rgb(236, 40, 157);">Salvavidas</div>
+    <div class="column column3" onclick="openTab('b3');" style="background:rgb(255, 0, 153);">Acesorios</div>
+  </div>
+  <!-- expancion de la grilla piscina (hidden by default) -->
+  <div id="b1" class="containerTab" style="display:none;background:rgba(0, 0, 255, 0.239)">
+    <!-- If you want the ability to close the container, add a close button -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
+    <h2>Piscina.</h2>
+    <p>Te ofrecemos las mejores piscinas de la ciudad, ven y disfruta momentos inolvidables en el <b>Hotel Los
+        Laureles</b>.</p>
+    <img src="img/piscina1.webp" alt="desarrollador web" title="Piscina Hotel Los Laureles">
+    <img src="img/piscina2.webp" alt="desarrollador web" title="Piscina Hotel Los Laureles">
+    <img src="img/piscina3.webp" alt="desarrollador web" title="Piscina Hotel Los Laureles">
+    <img src="img/piscina4.webp" alt="desarrollador web" title="Piscina Hotel Los Laureles">
+    <img src="img/piscina5.webp" alt="desarrollador web" title="Piscina Hotel Los Laureles">
+    <img src="img/piscina8.webp" alt="desarrollador web" title="Piscina Hotel Los Laureles">
+  </div>
+  <!-- ==================expacion de la grilla salvavidas==================== -->
+  <div id="b2" class="containerTab" style="display:none;background:rgba(7, 225, 7, 0.356)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
+    <h2>Salvavidas.</h2>
+    <p>Contamos con los mejores profesionales en rescate, salvavidas y equipo médicos, "Estamos al día con la
+      seguridad".</p>
+    <img src="img/salvavidas1.webp" alt="desarrollador web" title="Salvavidas Hotel Los Laureles">
+    <img src="img/salvavidas2.webp" alt="desarrollador web" title="Salvavidas Hotel Los Laureles">
+    <img src="img/salvavidas3.webp" alt="desarrollador web" title="Salvavidas Hotel Los Laureles">
+    <img src="img/salvavidas4.webp" alt="desarrollador web" title="Salvavidas Hotel Los Laureles">
+  </div>
+  <!-- ========================expancion de la grilla accesorios========================= -->
+  <div id="b3" class="containerTab" style="display:none;background:rgba(226, 8, 171, 0.505)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">X</span>
+    <div class="acesorios">
+      <h2>Accesorios.</h2>
+      <p>Vendemos accesorios, como flotadores, chalecos salvavidas, vestidos de baño para dama, caballeros y niños.</p>
+      <img src="img/trageBaño1.webp" alt="desarrollador web" title="Trage de Baño, Hotel Los Laureles">
+    </div>
+  </div> <br> <br>
+  <hr>
+
+  <!-- ===================barnne bar==================== -->
+  <div class="container">
+    <h4>Ven Y Disfruta De Nuestro Bar</h4>
+    <div class="bird-container bird-container--one">
+      <div class="bird bird--one"></div>
+    </div>
+    <div class="bird-container bird-container--two">
+      <div class="bird bird--two"></div>
+    </div>
+    <div class="bird-container bird-container--three">
+      <div class="bird bird--three"></div>
+    </div>
+    <div class="bird-container bird-container--four">
+      <div class="bird bird--four"></div>
+    </div>
+  </div>
+
+  <div class="servicios">
+    <h2>Servicio de bar 24/7.</h2>
+    <p>Este servicio es exclusivo para nuestra clientela. Pensamos en tí, para que tengas la mejor comodidad del mundo y
+      disfrute de todos los beneficios que te da el <b>Hotel Los Laureles.</b></p>
+  </div>
+  <hr>
+
+  <div class="formulario" id="Contacto">
+    <h3>Reservas.</h3>
+    <input type="text" placeholder="nombre">
+    <input type="number" placeholder="Teléfono" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Asunto" required>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </div>
+
+  <footer class="footer">
+    <div>
+      <h6>Hotel Los Laureles.</h6>
+      <p><b>Hotel Los Laureles</b> es un hotel &#9733; &#9733; &#9733; &#9733; &#9733; exclusivo para público privado,
+        <b>aplican términos y condiciones.</b>
+      </p>
+    </div>
+    <hr>
+    <div>
+      <h6>Siguenos en nuestras redes sociales.</h6>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-whatsapp"></i>
+    </div>
+    <h6>Todos los derecho reservados | 2020 |</h6>
+    <div class="myContact">
+      <h5>Otro proyecto de</h5>
+      <a href="https://antoniogoez.com" target="_blank">Antonio Goez-Desarrollador Web</a>
+    </div>
+  </footer>
+  <button onclick="topFunction()" id="myBtn" title="Subir">^</button>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
